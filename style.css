@@ -213,12 +213,12 @@ h1, h2, h3{
     background-position: center;
 }
 .img-box:nth-child(3){
-    background: url(./images/photo\ editing.jpg);
+    background: url(./images/photo-editing.jpg);
     background-size: cover;
     background-position: center;
 }
 .img-box:nth-child(4){
-    background: url(./images/photo-editing.jpg);
+    background: url(./images/Painting.jpg);
     background-size: cover;
     background-position: center;
 }
