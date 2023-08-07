@@ -199,7 +199,7 @@ h1, h2, h3{
     height: 500px;
     margin: 10px;
     border-radius: 50px;
-    background: url(./images/indoor\ photography.jpg);
+    background: url(./images/indoor-photography.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -208,7 +208,7 @@ h1, h2, h3{
     
 }
 .img-box:nth-child(2){
-    background: url(./images/outdoor\ photography.JPG);
+    background: url(./images/outdoor-photography.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -218,7 +218,7 @@ h1, h2, h3{
     background-position: center;
 }
 .img-box:nth-child(4){
-    background: url(./images/Painting.jpg);
+    background: url(./images/photo-editing.jpg);
     background-size: cover;
     background-position: center;
 }
