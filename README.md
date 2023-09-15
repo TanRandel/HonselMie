@@ -13,7 +13,7 @@ Welcome to my Fine Art Student Portfolio Website! This website showcases the art
 
 ## Demo
 
-You can visit the live website here: [Fine Art Portfolio](https://your-portfolio-url.com)
+You can visit the live website here: [Fine Art Portfolio](https://tanrandel.github.io/FineArtPortfolio-HTML-CSS-Js-/)
 
 ## Features
 
