@@ -139,7 +139,17 @@
                         <div><img src = "images/instagram1.jpg"></div>
                         <div><img src = "images/instagram2.jpg"></div>
                         <div><img src = "images/instagram3.jpg"></div>
-                        <div><img src = "images/instagram4.jpg"></div>
+                        <div class="flip-box" id="myFlipBox">
+                            <div class="flip-box-inner" >
+                                <div class="flip-box-front">
+                                    <h4>Dont click me!</h4>
+                                        <img src = "images/Image3.JPG">
+                                </div>
+                                <div class="flip-box-back">
+                                        <img src ="images/instagram4.jpg">
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -172,7 +182,16 @@
     </footer>
     <!-- end of footer -->
 
-
+    <script>
+        document.getElementById("myFlipBox").addEventListener("click", function() {
+    var flipBoxInner = this.querySelector(".flip-box-inner");
+    if (flipBoxInner.style.transform === "rotateY(180deg)") {
+        flipBoxInner.style.transform = "rotateY(0deg)";
+    } else {
+        flipBoxInner.style.transform = "rotateY(180deg)";
+    }
+});
+    </script>
     <!-- typewriting js -->
     <script src = "typewriting-master/typewriting.js"></script>       
     
